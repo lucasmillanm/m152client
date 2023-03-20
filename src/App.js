@@ -4,6 +4,7 @@ import { Parallax } from 'react-parallax';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo from './logo.svg';
+import jetpackbg from './pictures/jetpackmf.jpg'
 import './App.css';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
 
     return (
         <div className="App">
-            <Parallax bgImage={'/path/to/background/image.jpg'} strength={500}>
+            <Parallax bgImage={jetpackbg} strength={500}>
                 <Container>
                     <header className="App-header">
                         <img src={logo} className="App-logo" alt="logo" />
