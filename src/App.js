@@ -22,15 +22,6 @@ function App() {
                         <h1 data-aos="fade-up" data-aos-duration="1000">
                             Super Crazy Baby
                         </h1>
-                        <a
-                            className="App-link"
-                            href="https://reactjs.org"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
-                        >
-                            Learn React
-                        </a>
                     </header>
                 </Container>
             </Parallax>
